@@ -4,5 +4,6 @@
     <title>Celuzone</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="../js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../css/cssceluzone.css">
 
 </head>
