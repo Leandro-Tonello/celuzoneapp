@@ -4,6 +4,7 @@ include '../config/conexion.php';
 
 $orden = $_POST ["numeroOrden"];
 $nombre = $_POST ["nombreOrden"];
+$apellido = $_POST ["apellidoOrden"];
 $telefono = $_POST ["telefonoOrden"];
 $marca = $_POST ["marcaOrden"];
 $modelo = $_POST ["modeloOrden"];
@@ -19,7 +20,7 @@ $detalle = $_POST ["detalleOrden"];
 
 
  
-$insertar = "INSERT INTO `ordenes` (`id`, `orden`, `nombre`, `telefono`, `marca`, `modelo`, `problema`, `detalle`, `recepcion`, `retira`, `costo`, `presupuesto`, `ganancia`, `modo`, `estado`) VALUES (NULL, '$orden', '$nombre', '$telefono', '$marca', '$modelo', '$problema', '$detalle', '$recepcion','$retira' , '$costo', '$presupuesto', '$ganancia', '$modo', '$estado');";
+$insertar = "INSERT INTO `ordenes` (`id`, `orden`, `nombre`, `apellido`, `telefono`, `marca`, `modelo`, `problema`, `detalle`, `recepcion`, `retira`, `costo`, `presupuesto`, `ganancia`, `modo`, `estado`) VALUES (NULL, '$orden', '$nombre', '$apellido', '$telefono', '$marca', '$modelo', '$problema', '$detalle', '$recepcion','$retira' , '$costo', '$presupuesto', '$ganancia', '$modo', '$estado');";
 
 $resultado = mysqli_query($conexion, $insertar);
 

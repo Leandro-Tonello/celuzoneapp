@@ -11,14 +11,19 @@
     
         <div class="form-row">
         
-             <div class="form-group col-md-2">
+             <div class="form-group col-md-3">
                 <label for="ExampleForName">Numero de Orden</label>
                 <input type="number" required class="form-control" name="numeroOrden"  placeholder="Ingrese el Numero">
             </div>
 
-            <div class="form-group col-md-5">
-                <label for="exampleInputType">Nombre y apellido</label>
+            <div class="form-group col-md-2">
+                <label for="exampleInputType">Nombre</label>
                 <input type="text" required class="form-control" name="nombreOrden" placeholder="Ingrese el nombre">
+            </div>
+
+            <div class="form-group col-md-2">
+                <label for="exampleInputType">Apellido</label>
+                <input type="text" required class="form-control" name="apellidoOrden" placeholder="Ingrese el nombre">
             </div>
 
             <div class="form-group col-md-5">
@@ -88,9 +93,9 @@
 
                         <option>Transferencia</option>
 
-                        <option>Tarjeta de Crédito</option>
+                        <option>Crédito</option>
 
-                        <option>Tarjeta de Debito</option>
+                        <option>Debito</option>
 
                     </select>
         </div>
@@ -106,9 +111,9 @@
 
                 <option>Entregado</option>
 
-                <option>Sin reparacion</option>
+                <option>Irreparable</option>
 
-                <option>No repara</option>
+                <option>Negado</option>
 
             </select>
         </div>
