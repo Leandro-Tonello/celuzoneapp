@@ -111,9 +111,9 @@
 
                 <option>Entregado</option>
 
-                <option>Irreparable</option>
+                <option>No repara</option>
 
-                <option>Negado</option>
+                <option>Sin reparación</option>
 
             </select>
         </div>
